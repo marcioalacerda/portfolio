@@ -6,225 +6,242 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Desenvolvido por Márcio Lacerda">
     <meta name="description" content="Portifólio do desenvolvedor front-end Márcio A. Lacerda">
-    <title>Portifólio | Márcio Lacerda</title>
+    <title>Portfólio | Márcio Lacerda</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/home.css">
     <script src="https://kit.fontawesome.com/8718294d59.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <!--Menu-->
-        <span>
-            <img src="#" alt="Animação JS"> 
-        </span>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre_min">Sobre mim</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-            </ul>
-
-        </nav>
-    </header>
-    <main>
-        
-        <!--Home-->
-        <section id="home">
-            <div>
-                <p>
-                    Olá, eu sou o <br>
-                    <span>Márcio Lacerda.</span>
-                    <br>Desenvolvedor Front-end <!--e Back-end-->
-                </p>
-            </div>
-            <div>
-                <img src="imagens/eu.png" alt="Avatar do Márcio">
-            </div>
-            <div>
-                <div class="linkedin">
-                    <!--Linkedin-->
-                    <i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/marciolacerda1/" target="_blank" rel="external">Linkedin</a>
+    <div>
+        <input id="menu_950" class="menu_950" type="checkbox" aria-label="menu_950" role="button">
+        <label class="menu_950_label" for="menu_950" title="menu_950"></label>
+        <header class="header">
+            <!--Menu a partir de 1200-->
+                <div class="menu_centro">
+                    <div class="header_container centralizador">
+                        <div class="logo esquerda">
+                            <!--podemos tirar depois-->
+                            <a href="index.html">
+                                <img src="imagens/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                        <nav class="direita">
+                            <ul onclick="getElementById('menu_950').checked=false;">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#sobre">Sobre</a></li>
+                                <li><a href="#habilidades">Habilidades</a></li>
+                                <li><a href="#projetos">Projetos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-                <div class="github">
-                    <!--GitHub-->
-                    <i class="fa-brands fa-github"></i><a href="https://github.com/xeulam" target="_blank" rel="external">GitHub</a>
-                </div>
-            </div>
-        </section>
-        
-        <!--Sobre-->
-        <section id="sobre_min">
-            <div>
-                <h1>Sobre mim</h1>
+        </header>
 
-                <img src="imagens/3x4.png" alt="Márcio Alves Lacerda"><br>
-                <p>Meu nome é <strong>Márcio Alves Lacerda</strong>, Graduado em Sistema de Informação e Pos-graduado em Engenharia de Processo, Produto e Qualidade, com enfase em Lean Manufacturing. Atualmente estou participando da formação no programa Start da Capgemini, com foco no desenvolvimento de habilidades Front-End e Back-End. Possuo nível intermediério em Inglês e nível avançado em Espanhol.</p>
-                <p>Sou apaixonado por tecnologia e estou me reinventando agora como desenvolvedor.</p>
-                <p>Me graduei em Sistema de Informação, mas continuei trabalhando com gestão de processo. Agora estou em transição para iniciar a tão sonhada carreira de desenvolvedor Front-end <!--e Back-end--></p>
-                
-            </div>
-            <div>
-                <nav>
-                    <h2>Contato</h2>
+        <main>
+            <!--Home-->
+            <section id="home">
+                <div class="altura_ajuste">
+                    <div class="home centralizador">
+                        <div class="ajustador organizador">
+                            <div class="apresentacao">
+                                <div>
+                                    <p class="descricao">
+                                        Olá, eu sou o <br>
+                                        <span style="display: inline" class="meu_nome">Márcio Lacerda.</span>
+                                        <br>Desenvolvedor Front-end <!--e Back-end-->
+                                    </p>
+                                </div>
+                                <br>
+                                <div class="ajustador">
+                                    <div class="social">
+                                        <!--Linkedin-->
+                                        <a href="https://www.linkedin.com/in/marciolacerda1/" target="_blank" rel="external" class="link" >Linkedin</a>
+                                    </div>
+                                    <br>
+                                    <div class="social">
+                                        <!--GitHub-->
+                                        <a href="https://github.com/xeulam" target="_blank" rel="external" class="link" >GitHub</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="avatar">
+                                <img class="avatar2" src="imagens/eu.png" alt="Eu em avatar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!--Sobre-->
+            <section id="sobre">
+                <div>
+                    <h1>Sobre mim</h1>
+                    <img src="imagens/3x4.png" alt="Márcio Alves Lacerda"><br>
+                    <p>Meu nome é <strong>Márcio Alves Lacerda</strong>, Graduado em Sistema de Informação e Pos-graduado em Engenharia de Processo, Produto e Qualidade, com enfase em Lean Manufacturing. Atualmente estou participando da formação no programa Start da Capgemini, com foco no desenvolvimento de habilidades Front-End e Back-End. Possuo nível intermediério em Inglês e nível avançado em Espanhol.</p>
+                    <p>Sou apaixonado por tecnologia e estou me reinventando agora como desenvolvedor.</p>
+                    <p>Me graduei em Sistema de Informação, mas continuei trabalhando com gestão de processo. Agora estou em transição para iniciar a tão sonhada carreira de desenvolvedor Front-end <!--e Back-end--></p>
+        
+                </div>
+                <div>
                     <nav>
-
-                        <!--Currículo PDF-->
-                        <i class="fa-solid fa-file-arrow-down"></i><a href="arquivo/Currículo-Márcio_Alves_Lacerda.pdf" download="Currículo-Márcio_Alves_Lacerda.pdf" type="application/pdf">Currículo</a> - Baixe o meu currículo em PDF
-
-                        <!--E-mail-->
-                        <i class="fa-solid fa-envelope"></i><a href="mailto:marcioalacerda2201@gmail.com">E-mail</a> - Você pode também me enviar um e-mail
+                        <h2>Contato</h2>
+                        <nav>
+                            <!--Currículo PDF-->
+                            <i class="fa-solid fa-file-arrow-down"></i><a href="arquivo/Currículo-Márcio_Alves_Lacerda.pdf" download="Currículo-Márcio_Alves_Lacerda.pdf" type="application/pdf">Currículo</a> - Baixe o meu currículo em PDF
+                            <!--E-mail-->
+                            <i class="fa-solid fa-envelope"></i><a href="mailto:marcioalacerda2201@gmail.com">E-mail</a> - Você pode também me enviar um e-mail
+                        </nav>
                     </nav>
-                </nav>
-            </div>
-        </section>
+                </div>
+            </section>
         
-        <!--Projetos-->
-        <section id="projetos">
-            <div>
-                <h2>Projetos</h2>
+            <!--Projetos-->
+            <section id="projetos">
                 <div>
-                    <div class="projeto">
-                        <p>Projeto1</p>
+                    <h2>Projetos</h2>
+                    <div>
+                        <div class="projeto">
+                            <p>Projeto1</p>
+                        </div>
+                        <div class="projeto">
+                            <p>Projeto2</p>
+                        </div>
+                        <div class="projeto">
+                            <p>Projeto3</p>
+                        </div>
+                        <div class="projeto">
+                            <p>Projeto4</p>
+                        </div>
+                        <div class="projeto">
+                            <p>Projeto5</p>
+                        </div>
+                        <div class="projeto">
+                            <p>Projeto6</p>
+                        </div>
                     </div>
-                    <div class="projeto">
-                        <p>Projeto2</p>
-                    </div>
-                    <div class="projeto">
-                        <p>Projeto3</p>
-                    </div>
-                    <div class="projeto">
-                        <p>Projeto4</p>
-                    </div>
-                    <div class="projeto">
-                        <p>Projeto5</p>
-                    </div>
-                    <div class="projeto">
-                        <p>Projeto6</p>
+                    <div class="button_git">
+                        <i class="fa-brands fa-github"></i><a href="https://github.com/xeulam?tab=repositories" target="_blank" rel="external">Ver mais no Repositório GitHub</a>
                     </div>
                 </div>
-
-                <div class="button_git">
-                    <i class="fa-brands fa-github"></i><a href="https://github.com/xeulam?tab=repositories" target="_blank" rel="external">Ver mais no Repositório GitHub</a> 
-                </div>
-            </div>
-        </section>
+            </section>
         
-        <!--Habilidades-->
-        <section id="habilidades"> 
+            <!--Habilidades-->
+            <section id="habilidades">
+                <div>
+                    <h2>Habilidades</h2>
+                    <div>
+                        <div>
+                            <img src="#" alt="js_icon">
+                        </div>
+                        <div>
+                            <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="#" alt="html_icon">
+                        </div>
+                        <div>
+                            <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="#" alt="css_icon">
+                        </div>
+                        <div>
+                            <p>CSS é um mecanismo para adicionar estilo a um documento web.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="#" alt="sass_icon">
+                        </div>
+                        <div>
+                            <p>SASS é uma linguagem de extensão do CSS, a sua ideia é adicionar recursos especiais como variáveis, mixins, funções e operações e outras opções</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="#" alt="less_icon">
+                        </div>
+                        <div>
+                            <p>Less é uma linguagem de folha de estilos dinâmica desenhada por Alexis Sellier. Ela foi influenciada por SASS e influenciou a nova sintaxe "SCSS" do SASS, que adaptou sua sintaxe de formação de blocos do tipo CSS.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="#" alt="git_icon">
+                        </div>
+                        <div>
+                            <p>Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="#" alt="github_icon">
+                        </div>
+                        <div>
+                            <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="#" alt="react_icon">
+                        </div>
+                        <div>
+                            <p>React é uma biblioteca criada para construir telas de forma declarativa. <strong>Em desenvolvimento.</strong></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="#" alt="angular_icon">
+                        </div>
+                        <div>
+                            <p>AngularJS é um framework open-source de desenvolvimento front-end que possibilita o desenvolvimento de aplicações web. <strong>Em desenvolvimento.</strong></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="#" alt="TS_icon">
+                        </div>
+                        <div>
+                            <p>TypeScript é um superconjunto de JavaScript, ou seja, um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript. <strong>Em desenvolvimento.</strong></p>
+                        </div>
+                    </div>
+                    <!--
+                    <div>
+                        <div>
+                            <img src="#" alt="python_icon">
+                        </div>
+                        <div>
+                            <p>Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="#" alt="java_icon">
+                        </div>
+                        <div>
+                            <p>Java é uma linguagem de programação e plataforma de computação liberada pela primeira vez em 1995. Essa linguagem oferece uma plataforma confiável na qual muitos serviços e aplicativos são desenvolvidos.</p>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </section>
+        </main>
+        <footer>
             <div>
-                <h2>Habilidades</h2>
-                <div>
-                    <div>
-                        <img src="#" alt="js_icon">
-                    </div>
-                    <div>
-                        <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web.</p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="#" alt="html_icon">
-                    </div>
-                    <div>
-                        <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web.</p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="#" alt="css_icon">
-                    </div>
-                    <div>
-                        <p>CSS é um mecanismo para adicionar estilo a um documento web.</p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="#" alt="sass_icon">
-                    </div>
-                    <div>
-                        <p>SASS é uma linguagem de extensão do CSS, a sua ideia é adicionar recursos especiais como variáveis, mixins, funções e operações e outras opções</p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="#" alt="less_icon">
-                    </div>
-                    <div>
-                        <p>Less é uma linguagem de folha de estilos dinâmica desenhada por Alexis Sellier. Ela foi influenciada por SASS e influenciou a nova sintaxe "SCSS" do SASS, que adaptou sua sintaxe de formação de blocos do tipo CSS.</p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="#" alt="git_icon">
-                    </div>
-                    <div>
-                        <p>Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="#" alt="github_icon">
-                    </div>
-                    <div>
-                        <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.</p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="#" alt="react_icon">
-                    </div>
-                    <div>
-                        <p>React é uma biblioteca criada para construir telas de forma declarativa. <strong>Em desenvolvimento.</strong></p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="#" alt="angular_icon">
-                    </div>
-                    <div>
-                        <p>AngularJS é um framework open-source de desenvolvimento front-end que possibilita o desenvolvimento de aplicações web. <strong>Em desenvolvimento.</strong></p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="#" alt="TS_icon">
-                    </div>
-                    <div>
-                        <p>TypeScript é um superconjunto de JavaScript, ou seja, um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript. <strong>Em desenvolvimento.</strong></p>
-                    </div>
-                </div>
-                <!--
-                <div>
-                    <div>
-                        <img src="#" alt="python_icon">
-                    </div>
-                    <div>
-                        <p>Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.</p>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <img src="#" alt="java_icon">
-                    </div>
-                    <div>
-                        <p>Java é uma linguagem de programação e plataforma de computação liberada pela primeira vez em 1995. Essa linguagem oferece uma plataforma confiável na qual muitos serviços e aplicativos são desenvolvidos.</p>
-                    </div>
-                </div>
-                -->
+                <p>E-mail para contato: marcioalacerda2201@gmail.com</p>
+                &copy; 2022 - Desenvolvido por Márcio Lacerda
             </div>
-        </section>
-    </main>
-    <footer>
-        <div>
-            <p>E-mail para contato: marcioalacerda2201@gmail.com</p>
-            &copy; 2022 - Desenvolvido por Márcio Lacerda
-        </div>
-        <div>
-            <i class="fa-brands fa-github"></i><a href="https://github.com/xeulam" target="_blank" rel="external">GitHub</a>
-            <i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/marciolacerda1/" target="_blank" rel="external">Linkedin</a>
-        </div>
-    </footer>
-    <script src="interact.js"></script>
+            <div>
+                <i class="fa-brands fa-github"></i><a href="https://github.com/xeulam" target="_blank" rel="external">GitHub</a>
+                <i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/marciolacerda1/" target="_blank" rel="external">Linkedin</a>
+            </div>
+        </footer>
+    </div>
+    <!--<script src="interact.js"></script>-->
 </body>
 </html>
