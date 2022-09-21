@@ -1,0 +1,109 @@
+/*Habilidades*/
+
+#habilidades {
+    background-image: linear-gradient(to bottom, #352728, #8b4513);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+}
+
+.habilidades {
+    padding-top: 93px;
+}
+
+.habilidades h2 {
+    text-align: center;
+    padding: 70px;
+}
+
+.habilidades_descricao {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: start;
+   gap: 50px;
+    padding-bottom: 70px;
+}
+
+.habilidades_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 37px;
+    max-width: 68%;
+}
+
+.habilidades_box {
+    height: 106px;
+    width: 106px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+
+.habilidades_box:hover {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+.descricao_container {
+    color: #f5deb3;
+    font-family: serif;
+    font-size: 20px;
+    max-width: 27%;
+}
+
+.escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+
+@media (max-width:1200px) {
+    .descricao_container {
+        height: 260px;
+    }
+
+    #habilidades {
+        display: flex;
+        justify-content: center;
+    }
+
+    .habilidades_descricao {
+        display: flex;
+        flex-direction: column-reverse;
+        margin:  0 auto;
+        gap: 50px;
+        padding-bottom: 70px;
+        align-items: center;
+    }
+    .habilidades_descricao p {
+        text-align: center;
+    }
+}
+
+@media (max-width:950px) {
+    .habilidades_container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 300px;
+    }
+    
+    .descricao_container {
+        max-width: 300px;
+    }
+}
+
+/* verificar após incluir as imagens */
+.skill-box .icones-habilidades {
+    transition: ease-in-out 0.3s;
+}
+
+.skill-box:hover .icones-habilidades {
+    opacity: 0;
+}

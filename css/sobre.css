@@ -1,0 +1,92 @@
+/*Sobre*/
+/*
+Alguns estilos não estão nesse arquivo e sim no menu.css
+São eles:
+.social
+.link
+*/
+#sobre {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #352728, #8b4513);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
+}
+
+.ajustador2 {
+    padding: 144px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 67px;
+    max-width: 1064px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 45px;
+    color: #f5deb3;
+}
+
+.foto {
+    width: 323px;
+    height: 368px;
+    position: relative;
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+.foto:hover {
+    transform: scale(1.05);
+}
+
+.foto img {
+    border-radius: 162px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre p {
+    text-indent: 30px;
+    font-size: 20px;
+    max-width: 610px;
+    color: #f5deb3;
+}
+
+@media (max-width:1200px) {
+    .ajustador2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .foto {
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador2 p {
+        font-size: 15px;
+    }
+
+    .sobre p {
+        text-indent: 0;
+    }
+}
+
+@media(max-width:950px) {
+    .ajustador2 {
+        max-width: 350px;
+        padding: 70px 30px;
+    }
+
+    .foto {
+        margin-right: 0;
+    }
+}
+
+
+

@@ -16,7 +16,7 @@ a {
     display: block;
     color: #d2691e;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     transition: ease-in-out 0.3s;
 }
 
@@ -35,7 +35,7 @@ img {
 
 .header {
     width: 100%;
-    background-color: #d2b48c;
+    background-color: rgba(196, 196, 196, 0.11);
     backdrop-filter: blur(10px); /*permite aplicar efeito no fundo, como desfoque*/
     position: fixed; /*defina que fique a cima  dos elementos*/
     top: 0;
@@ -50,16 +50,19 @@ img {
     flex-wrap: wrap;
 }
 
-.centralizador {/*se alterar, verificar se necessita no home.css*/
+.centralizador {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+/*Home*/
 
 #home{
     background: linear-gradient(180deg, #8E5D52 0%, #352728 100%);
     height: 100vh;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.452);
 }
 
 .altura_ajuste {

@@ -1,0 +1,48 @@
+color {
+    color: #ffddba;
+    color: #ccba47;
+    color: #c26100;
+    color: #8f4700;
+    color: #422100;
+
+    color: #5c2b14;
+    color: #e19775;
+    color: #db6630;
+    color: #5c3e30;
+    color: #a84f25;
+
+    color: #8b4513;
+    color: #a0522d;
+    color: #cd853f;
+    color: #deb887;
+    color: #f5f5dc;
+    color: #f5deb3;
+    color: #f4a460;
+    color: #d2b48c;
+    color: #d2691e;
+    color: #352728;
+
+    /*usadas home e menu*/
+    color: #d2691e; /*link menu e link hover home*/
+    color: #f5deb3; /*link hover menu, link home e texto home*/
+    color: #d2b48c; /*menu*/
+    color: #8E5D52; /*gradiente home e fundo link hover home*/
+    color: #352728; /*gradiente home*/
+
+    /*usadas sobre*/
+    color: #d2691e; /*gradiente sobre e link hover sobre*/
+    color: #f5deb3; /*link sobre e texto sobre*/
+    color: #d2b48c; 
+    color: #8E5D52; /*fundo link hover home*/
+    color: #352728; /*gradiente sobre*/
+
+    /*usadas projeto*/
+    color: #d2691e; /*gradiente sobre e link hover sobre*/
+    color: #f5deb3; /*link sobre e texto projetos*/
+    color: #d2b48c; /**/
+    color: #8E5D52; /*fundo link hover home*/
+    color: #352728; /*gradiente sobre*/
+
+    
+
+}
