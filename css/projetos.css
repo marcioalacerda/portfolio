@@ -1,4 +1,10 @@
 /*Projetos*/
+/*
+
+configurações das classes abaixa estão no menu.css:
+.centralizador
+
+*/
 
 #projetos {
     background-image: linear-gradient(to top, #352728, #8b4513);
@@ -79,12 +85,18 @@
         justify-content: center;
     }
     .projetos_itens {
-        flex-direction: column;
+        margin: auto;
+        width: 70%;
     }
 }
 
 @media (max-width:950px) {
     .projeto_link {
         max-width: 300px;
+    }
+
+    .projetos_itens {
+        width: 100%;
+        flex-direction: column;
     }
 }
