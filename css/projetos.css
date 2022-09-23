@@ -54,6 +54,10 @@ configurações das classes abaixa estão no menu.css:
     transition: ease-in-out 0.3s;
 }
 
+.descricao_oculta {
+    opacity: 0;
+}
+
 .projeto_link div p {
     font-family: sans-serif;
     font-size: 20px;
@@ -63,6 +67,7 @@ configurações das classes abaixa estão no menu.css:
 
 .projeto_link:hover {
     letter-spacing: 5px;
+    transform: scale(1.05);
 }
 
 .projetos_itens {

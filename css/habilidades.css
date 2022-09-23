@@ -50,12 +50,11 @@ configurações das classes abaixa estão no menu.css:
     transition: ease 0.3s;
 }
 
-    .icones_habilidades {
-        border-radius: 20px;
-    }
+.icones_habilidades {
+    border-radius: 20px;
+}
 
 .habilidades_box:hover {
-    background-color: white;
     transform: scale(1.05);
 }
 
